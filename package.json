@@ -1,0 +1,19 @@
+{
+  "name": "bilgi-islem-portal-api",
+  "version": "1.0.0",
+  "description": "rest api for bilgi silem portal app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Omer TOPUZ",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mssql": "^6.3.1",
+    "nodemon": "^2.0.7"
+  }
+}
